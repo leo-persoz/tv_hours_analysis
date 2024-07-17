@@ -8,3 +8,4 @@ tv_hours_tabulatio <-
   summarise(mean_tv_hours = mean(tvhours, na.rm = T))
 
 write_csv(tv_hours_tabulatio, here("TV_hours_by_marital.csv"))
+
